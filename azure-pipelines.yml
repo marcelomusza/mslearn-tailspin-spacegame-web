@@ -11,7 +11,7 @@ variables:
 
 steps:
 - task: UseDotNet@2
-  displayName: 'Use .NET SDK $(dotnetSdkVersion)'
+  displayName: 'Use .NET SDK $(dotnetSdkVersion) yeap'
   inputs:
     version: '$(dotnetSdkVersion)'
 
